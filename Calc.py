@@ -1,11 +1,9 @@
-firstnumber = int(input())
-charc = input()
-secondnumber = int(input())
-if charc == '+':
-  print(firstnumber + secondnumber)
-elif charc == '-':
-  print(firstnumber - secondnumber)
-elif charc == '*':
-  print(firstnumber * secondnumber)
-elif charc == '/':
-  print(firstnumber / secondnumber)
+firstnumber = [x for x in input().strip().split(' ')]
+if firstnumber[1] == '+':
+  print(int(firstnumber[0]) + int(firstnumber[2]))
+elif firstnumber[1] == '-':
+  print(int(firstnumber[0]) - int(firstnumber[2]))
+elif firstnumber[1] == '*':
+  print(int(firstnumber[0]) * int(firstnumber[2]))
+elif firstnumber[1] == '/':
+  print(int(firstnumber[0]) / int(firstnumber[2]))
