@@ -1,2 +1,2 @@
 # Python
-Just for Time pass
+1 for Python :)
